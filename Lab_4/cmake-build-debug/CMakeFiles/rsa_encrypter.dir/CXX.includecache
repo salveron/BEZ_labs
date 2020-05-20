@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/salveron/Documents/BEZ/lab4/rsa-decrypter.cpp
+cstdio
+-
+iostream
+-
+openssl/evp.h
+-
+openssl/pem.h
+-
+openssl/rand.h
+-
+fstream
+-
+vector
+-
+limits
+-
+
+/home/salveron/Documents/BEZ/lab4/rsa-encrypter.cpp
+cstdio
+-
+iostream
+-
+openssl/evp.h
+-
+openssl/pem.h
+-
+openssl/rand.h
+-
+fstream
+-
+vector
+-
+limits
+-
+
